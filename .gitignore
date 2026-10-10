@@ -1,0 +1,19 @@
+# 环境变量 / 密钥 —— 绝不提交
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
